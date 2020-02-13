@@ -1,0 +1,15 @@
+* {
+    font-family: 'Big Shoulders Text', cursive;
+    color: hsl(300, 100%, 49%);
+    background-color: rgb(96, 221, 227);
+}
+
+h1 {
+    text-align: center;
+    font-size: 5em;
+    text-shadow: 3px 3px 3px rgb(94, 18, 18);
+}
+
+i {
+    font-size: 5em;
+}
