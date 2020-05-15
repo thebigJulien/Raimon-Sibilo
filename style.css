@@ -1,15 +1,40 @@
 * {
-    font-family: 'Big Shoulders Text', cursive;
-    color: hsl(300, 100%, 49%);
-    background-color: rgb(96, 221, 227);
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
 h1 {
+    border: 2px solid black;
     text-align: center;
-    font-size: 5em;
-    text-shadow: 3px 3px 3px rgb(94, 18, 18);
+    
 }
 
-i {
-    font-size: 5em;
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: bold;
+}
+
+h1:hover {
+    background: black;
+    color: white;
+}
+
+li {
+    border: 2px solid black;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+}
+
+li:hover {
+    background: black;
+    color: white;
 }
