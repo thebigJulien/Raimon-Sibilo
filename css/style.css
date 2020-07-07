@@ -6,7 +6,7 @@
 body {
     background-image: url(../img/IMG_7142_edit_underconstruction.jpg);
     background-size: 100%;
-
+    background-repeat: no-repeat;
 }
 
 header {
@@ -46,10 +46,10 @@ li:hover {
 }
 
 nav {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 50px;
     padding: 10px;
-    width: 30%;
+    width: 250px;
     border: 1px solid black;
     background-color: white;
 }
