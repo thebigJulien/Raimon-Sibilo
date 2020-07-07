@@ -3,10 +3,10 @@
     box-sizing: border-box;
     font-family: Helvetica, Arial, sans-serif;
 }
+
 body {
-    background-image: url(../img/IMG_7142_edit_underconstruction.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background: url(../img/IMG_7142_edit_underconstruction.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 header {
@@ -20,6 +20,7 @@ h1 {
     text-align: center;
     transition-duration: 0.8s;
     padding: 5px;
+    width: 600px;
 }
 
 a {
@@ -53,4 +54,3 @@ nav {
     border: 1px solid black;
     background-color: white;
 }
-
