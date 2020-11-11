@@ -1,0 +1,54 @@
+
+html, body {
+    margin: 10px;
+}
+
+.container > div > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-flow: dense;
+}
+
+.horizontal {
+    grid-column: span 2;
+}
+
+.vertical {
+    grid-row: span 2;
+}
+
+.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+header { 
+    margin-bottom: 10px;
+}
+
+h2 {
+    border: 2px solid black;
+    text-align: center;
+    transition-duration: 0.8s;
+    padding: 5px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+h2:hover {
+    background: black;
+    color: white;
+}
+
