@@ -13,13 +13,26 @@
 
 <body>
     <header>
-        <!-- this is your navigation for PC and Tablets -->
+
+        <!-- Simulate a smartphone / tablet -->
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+        <span class="close" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+        
+
+
         <div class="name">
             <h4>RAIMON SIBILO</h4>
         </div>
 
+        <!-- this is your navigation for PC and Tablets -->
         <div class="navigation">
-            <button href="index.html">HOME</button>
+            <button class="dropdown" href="index.html">HOME</button>
 
             <button class="dropdown">THE ART<i class="fa fa-caret-down"></i>
                 <div class="dropdown-content">
@@ -53,7 +66,7 @@
                 </div>
             </button>
 
-            <button href="#">INFO/ABOUT</button>
+            <button class="dropdown" href="#">INFO/ABOUT</button>
         </div>
         
         <!-- this is your social media icons -->
@@ -62,16 +75,29 @@
             <a href="https://www.instagram.com/raimonsibilo_lifebytes/?hl=fr" target="_blank" title="Insta link"><i class="fab fa-instagram"></i></a>
             <a href="mailto: contact@raimonsibilo.com" title="write me!"><i class="fas fa-envelope"></i></a>
         </div>
+
+          
     </header>
 
 
     <main class="wrapper">
         <!-- here's what you wanna showcase on the landing page -->
+
     </main>
 
     <footer>
         
     </footer>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
 </body>
 
 </html>
